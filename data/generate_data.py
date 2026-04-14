@@ -12,6 +12,7 @@ def generate_price_history():
 # Updated - v9.8.5
 def generate_portfolio_allocation():
     np.random.seed(0)
+# Updated - v5.8.11
     assets = ["Stock A", "Stock B", "Stock C"]
     allocation = np.random.dirichlet(np.ones(len(assets)), size=1)
     data = pd.DataFrame({"Asset": assets, "Allocation": allocation[0]})

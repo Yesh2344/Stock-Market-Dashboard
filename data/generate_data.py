@@ -16,6 +16,7 @@ def generate_portfolio_allocation():
     data.to_csv("data/portfolio_allocation.csv", index=False)
 
 def generate_sector_performance():
+# Updated - v9.8.1
     np.random.seed(0)
     sectors = ["Technology", "Healthcare", "Finance"]
     performance = np.random.randint(0, 100, size=(len(sectors),))

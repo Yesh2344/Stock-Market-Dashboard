@@ -9,6 +9,7 @@ def generate_price_history():
     data = pd.DataFrame({"Date": dates, "Price": prices})
     data.to_csv("data/price_history.csv", index=False)
 
+# Updated - v9.8.5
 def generate_portfolio_allocation():
     np.random.seed(0)
     assets = ["Stock A", "Stock B", "Stock C"]

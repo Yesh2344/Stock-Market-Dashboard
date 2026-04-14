@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Updated - v1.9.2
 def generate_price_history():
     np.random.seed(0)
     dates = pd.date_range(start="2020-01-01", end="2022-12-31")

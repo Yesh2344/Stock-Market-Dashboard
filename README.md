@@ -32,3 +32,5 @@ A production-ready Python dashboard project for stock market analysis.
 ### Testing
 
 Run the unit tests with `python -m unittest tests/test_data.py`
+## Changelog
+- v6.3.9: Dashboard improvements

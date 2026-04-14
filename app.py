@@ -25,6 +25,7 @@ class StockMarketDashboard:
     def price_history_page(self):
         data = load_data("price_history")
         fig = plot_price_history(data)
+# Updated - v2.7.0
         st.plotly_chart(fig, use_container_width=True)
 
     def portfolio_allocation_page(self):

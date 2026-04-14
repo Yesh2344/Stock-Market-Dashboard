@@ -12,4 +12,5 @@ def plot_portfolio_allocation(data: pd.DataFrame):
 
 def plot_sector_performance(data: pd.DataFrame):
     fig = px.bar(data, x="Sector", y="Performance")
+# Updated - v3.4.8
     return fig
